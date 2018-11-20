@@ -9,7 +9,12 @@ We aim to improve developer's collaboration environment. We develop a chatbot wh
 ## Demo Video
 https://www.youtube.com/embed/FO2RW24wHFQ<br>
 
-## Bot's functional _features
+## Bot's Main Features
+
+1.	Detect direct conflict : Chatbot can detect a direct conflict and three types of severity.
+2.	Detect indirect conflict : Chatbot can detect a indirect conflict.
+
+## Bot's Functional Features
 
 1.	Ignore file : It functions like gitignore. A user can customize his/her ignore files.
 2.	Lock file : A user can lock his/her files. If other users try to modify the locked file, Sayme gives them a warning.
@@ -19,22 +24,19 @@ https://www.youtube.com/embed/FO2RW24wHFQ<br>
 6.	Check working status : A user can ask about other user's working status.(Working Project, Logic, Line, Amount)
 7.	Give user message : A user can let chatbot give a message to other users.
 8.	Give recommendation : A user can ask chatbot to recommend how to deal with the conflict.
-9.  Check ignored file : A user can ask chatbot about which files are being ignored by certain user or *in project*.
+9.  Check ignored file : A user can ask chatbot about which files are being ignored by certain user or ignored in the project.
 10. Check who lock file : A user can ask chatbot about who lock certain file.
 11. Check severity : A user can ask chatbot about how severe conflict is in certain file. 
 12. Recognize user : Chatbot knows when last time a user connected is, so bot can greet the user with time information. ex) It's been a week~!
 13.	Greet user : Chatbot can greet users.
 14.	Complimentary close : Chatbot can say good bye.
 
-## Bot's non functional features
-
-1.	Detect direct conflict : Chatbot can detect direct conflict and three types of severity.
-2.	Detect indirect conflict : Chatbot can detect indirect conflict.
+## Bot's Non Functional Features
 
 1. Chatbot immediately detects the conflict and warns users who engage in the conflict. If the conflict is not resolved even after 30 minutes, it warns again.
 2. Every time a conflict is resolved, chatbot sends a conflict resolved message one time.
 3. The authentication is needed only one time.
-4. Chatbotß should detect user data every 5 minutes. Crawling repository should be done every 4 hours. 
+4. Chatbot should detect user data every 5 minutes. Crawling repository should be done every 4 hours. 
 5. Chatbot should respond to user within 3 minutes.
 
 ## Algorithm
