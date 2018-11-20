@@ -33,10 +33,9 @@ https://www.youtube.com/embed/FO2RW24wHFQ<br>
 
 1. Chatbot immediately detects the conflict and warns users who engage in the conflict. If the conflict is not resolved even after 30 minutes, it warns again.
 2. Every time a conflict is resolved, chatbot sends a conflict resolved message one time.
-3. Chatbot predicts the probability of a direct conflict with each of other users when a user starts editing a new file.
-4. The authentication is needed only one time.
-5. Chatbot should detect user data every 5 minutes. Crawling repository should be done every 4 hours. 
-6. Chatbot should respond to user within 3 minutes.
+3. The authentication is needed only one time.
+4. Chatbotß should detect user data every 5 minutes. Crawling repository should be done every 4 hours. 
+5. Chatbot should respond to user within 3 minutes.
 
 ## Algorithm
 
