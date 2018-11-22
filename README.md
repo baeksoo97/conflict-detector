@@ -15,11 +15,11 @@ We aim to improve developer's collaboration environment. We develop a chatbot wh
    2. Set IP and PORT in *conflict_test/client_setting.ini*
         ```
            [CONNECTION]
-            IP = 35.196.166.28
+            IP = 35.185.32.125
             PORT = 5009
             
            [GRAPH_CONNECTION]
-            IP = 35.196.166.28
+            IP = 35.185.32.125
             PORT = 5010
         ```
    3. Run *client.py*
